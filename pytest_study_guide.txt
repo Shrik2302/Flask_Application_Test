@@ -1,0 +1,28 @@
+1. General working
+2. fixture 
+3. conftest.py
+	fixtures
+	hooks
+	
+
+
+=================
+Project dir
+=================	
+
+├── app.py
+├── project
+│   ├── __init__.py
+│   ├── models.py
+│   └── ...blueprint folders...
+├── requirements.txt
+├── tests
+│   ├── conftest.py
+│   ├── functional
+│   │   ├── __init__.py
+│   │   ├── test_books.py
+│   │   └── test_users.py
+│   └── unit
+│       ├── __init__.py
+│       └── test_models.py
+└── venv
